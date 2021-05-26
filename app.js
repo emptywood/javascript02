@@ -7,13 +7,13 @@ $(function(){
   "〆のお蕎麦です"
   ];
   //mainの書き出し
-  let mImg=$("<img>").attr("src","0.jpg").attr("alt",album[0]);
+  let mImg=$("<img>").attr("src","https://github.com/emptywood/javascript02/blob/main/0.jpg?raw=true").attr("alt",album[0]);
   $(".main").append(mImg);
   let mMsg=$("<p>").text(album[0]);
   $(".main").append(mMsg);
   //thumbの書き出し
   for(let i=0; i<album.length; i++){
-    let tImg=$("<img>").attr("src", + i + ".jpg").attr("alt", album[i]);
+    let tImg=$("<img>").attr("src", + i + "https://github.com/emptywood/javascript02/blob/main/0.jpg?raw=true").attr("alt", album[i]);
     $(".thumb").append(tImg);
   }
   //ギャラリーの入れ替え動作
